@@ -1,0 +1,27 @@
+
+
+header {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 64px;
+}
+
+#logo {
+    display: flex;
+    margin-left: 24px;
+}
+
+
+#nav {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-right: 24px;
+}
+
+#nav li {
+    display: inline;
+    margin-left: 2em;
+    
+}
