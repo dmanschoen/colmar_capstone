@@ -71,6 +71,14 @@ button {
         
 }
 
+.content2 h1 {
+    justify-self: center;
+}
+
+.centered {
+    justify-self: center;
+}
+
 #left_content {
     width: 60%;
     padding-top: 32px;
@@ -125,3 +133,69 @@ button {
     margin: 0;
 }
 
+.content3 {
+    justify-content: center;
+    background-color: lightgrey;
+    padding-top: 32px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 32px;
+    
+}
+
+.content3 h1 {
+    justify-self: center;
+}
+
+#course_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.course_box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 32px;
+    margin-right: 16px;
+    margin-left: 16px;
+    width: 325px;
+    height: 350px;
+    
+}
+
+.course_box h2 {
+    margin-top: 16px;
+    margin-left: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.course_box h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.course_box h4 {
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+
+.content4 {
+
+}
+
+.content4 h1 {
+    justify-self: center;
+
+}
+
+footer h6 {
+    float: right;
+}
